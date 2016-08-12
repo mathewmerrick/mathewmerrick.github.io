@@ -3,7 +3,6 @@ published: true
 title: One Page ELK
 layout: post
 ---
-# One Page ELK Stack
 A one page guide for ctrl+f'ing
 
 \*A large portion of this guide originated from [Elastic]'s own documentation, I just wanted the important stuff curated.
@@ -20,6 +19,7 @@ Elasticsearch requires Java. I used Oracle's Java, [but OpenJDK works as well.](
 # Debian
 
 ## **Elasticsearch** 
+
 Download and add the GPG signing key:
 
 ```
@@ -47,6 +47,7 @@ sudo /bin/systemctl enable elasticsearch.service
 ```
 
 ## **Logstash**
+
 Download and add the GPG signing key: (If you skipped the Elasticsearch Portion)
 
 ```
@@ -74,6 +75,7 @@ sudo /bin/systemctl enable logstash.service
 ```
 
 ## **Kibana**
+
 Download and add the GPG signing key: (If you skipped the Elasticsearch Portion)
 
 ```
@@ -465,7 +467,7 @@ Again, this is assuming that Elasticsearch is running on localhost
 
 Kibana is the visual aspect of ELK. By default Kibana assumes that Elasticsearch is running on localhost. To correct this, edit ```/opt/kibana/config/kibana.yml```
 
-Kibana listens on port ```5601``` after Kibana is started, navigate to http://localhost:5601 to view the Kibana dashboard.
+Kibana listens on port ```5601``` after Kibana is started, navigate to ```http://localhost:5601``` to view the Kibana dashboard.
 
 Note: Any visualizations that are made in Kibana are stored in Elasticsearch under the ```.kibana``` index. 
 
