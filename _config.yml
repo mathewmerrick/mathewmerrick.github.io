@@ -1,7 +1,8 @@
 excerpt_separator: ""
 pygments: false
 markdown: kramdown
-url: http://mathewmerrick.github.io
+url: https://blog.mat.ski
+enforce_ssl: blog.mat.ski
 highlighter: rouge
 title: Mathew Merrick
 tagline: Just Things
