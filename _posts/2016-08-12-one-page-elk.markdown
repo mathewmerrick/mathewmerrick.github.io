@@ -215,7 +215,8 @@ sudo /bin/systemctl enable kibana.service
 | Document | a basic unit of information that can be indexed                                                                              |
 | Shard    | a is fully functional piece of an index, which permits an index to be spread across multiple nodes                           |
 | Replica Shard  | if the node holding a primary shard dies, a replica is promoted to the role of primary.                           |
-| Template | a fully functional piece of an index, which permits an index to be spread across multiple nodes                              |
+| Template | a definition that describes how documents will be mapped in an newly created index. 
+                              |
 
 
 
