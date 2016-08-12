@@ -18,7 +18,7 @@ Elasticsearch requires Java. I used Oracle's Java, [but OpenJDK works as well.](
 
 # Debian
 
-## **Elasticsearch** 
+## **Elasticsearch**
 
 Download and add the GPG signing key:
 
