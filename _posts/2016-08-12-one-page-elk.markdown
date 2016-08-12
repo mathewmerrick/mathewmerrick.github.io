@@ -21,16 +21,19 @@ Elasticsearch requires Java. I used Oracle's Java, [but OpenJDK works as well.](
 
 ## **Elasticsearch** 
 Download and add the GPG signing key:
+
 ```
 wget -qO - https://packages.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add -
 ```
 
 Now we need to add the official elasticsearch repository adding it to our sources
+
 ```
 echo "deb https://packages.elastic.co/elasticsearch/2.x/debian stable main" | sudo tee -a /etc/apt/sources.list.d/elasticsearch-2.x.list
 ```
 
 Update repositories
+
 ```
 sudo apt-get update
 sudo apt-get install elasticsearch
@@ -45,16 +48,19 @@ sudo /bin/systemctl enable elasticsearch.service
 
 ## **Logstash**
 Download and add the GPG signing key: (If you skipped the Elasticsearch Portion)
+
 ```
 wget -qO - https://packages.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add -
 ```
 
 Now we need to add the official elasticsearch repository adding it to our sources
+
 ```
 echo "deb https://packages.elastic.co/logstash/2.3/debian stable main" | sudo tee -a /etc/apt/sources.list.d/logstash-2.3.list
 ```
 
 Update repositories and install
+
 ```
 sudo apt-get update
 sudo apt-get install logstash
@@ -69,16 +75,19 @@ sudo /bin/systemctl enable logstash.service
 
 ## **Kibana**
 Download and add the GPG signing key: (If you skipped the Elasticsearch Portion)
+
 ```
 wget -qO - https://packages.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add -
 ```
 
 Now we need to add the official elasticsearch repository adding it to our sources
+
 ```
 echo "deb https://packages.elastic.co/kibana/4.5/debian stable main" | sudo tee -a /etc/apt/sources.list.d/kibana-4.5.list
 ```
 
 Update repositories and install
+
 ```
 sudo apt-get update
 sudo apt-get install kibana
@@ -113,6 +122,7 @@ enabled=1
 ```
 
 Then install
+
 ```
 yum install elasticsearch
 ```
