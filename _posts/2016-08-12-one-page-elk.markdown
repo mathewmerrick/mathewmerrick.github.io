@@ -198,7 +198,7 @@ Set to run at startup
 
 ```
 sudo /bin/systemctl daemon-reload
-sudo /bin/systemctl enable logstash.service
+sudo /bin/systemctl enable kibana.service
 ```
 
 
