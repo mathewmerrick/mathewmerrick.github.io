@@ -1,7 +1,8 @@
 excerpt_separator: ""
-pygments: true
+pygments: false
 markdown: kramdown
 url: http://mathewmerrick.github.io
+highlighter: rouge
 title: Mathew Merrick
 tagline: Just Things
 description: More Things
