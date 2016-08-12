@@ -1,0 +1,8 @@
+excerpt_separator: ""
+pygments: true
+markdown: kramdown
+url: http://mathewmerrick.github.io
+title: Mathew Merrick
+tagline: Just Things
+description: More Things
+paginate: 5
