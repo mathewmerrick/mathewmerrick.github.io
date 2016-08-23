@@ -3,7 +3,7 @@ published: true
 title: One Page ELK
 layout: post
 ---
-A one page guide for ctrl+f'ing
+A one page guide for searching
 
 \*A large portion of this guide originated from [Elastic]'s own documentation, I just wanted the important stuff curated.
 
@@ -433,7 +433,7 @@ View all elasticsearch templates
 curl -XGET localhost:9200/_template?pretty
 ```
 
-View specific elasticserach templates
+View specific elasticsearch templates
 
 ```
 curl -XGET localhost:9200/_template/template_name?pretty
